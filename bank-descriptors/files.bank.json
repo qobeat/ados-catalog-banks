@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "files",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/files.jsonl",
+  "event_schema_ref": "schemas/events/files-event.schema.json",
+  "description": "File inventory record.",
+  "models": [
+    {
+      "model_id": "file",
+      "payload_schema_ref": "schemas/payload/file.schema.json",
+      "description": "File inventory record."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

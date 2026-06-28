@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "repositories",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/repositories.jsonl",
+  "event_schema_ref": "schemas/events/repositories-event.schema.json",
+  "description": "Repository identity and lifecycle record.",
+  "models": [
+    {
+      "model_id": "repository",
+      "payload_schema_ref": "schemas/payload/repository.schema.json",
+      "description": "Repository identity and lifecycle record."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

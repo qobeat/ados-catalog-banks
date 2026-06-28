@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "bank_id": "repository_classifications",
+  "bank_version": "1.0.0",
+  "storage": "jsonl_ledger",
+  "ledger_path": "banks/repository_classifications.jsonl",
+  "event_schema_ref": "schemas/events/repository_classifications-event.schema.json",
+  "models": [
+    {
+      "model_id": "repository_classification",
+      "payload_schema_ref": "schemas/payload/repository_classification.schema.json"
+    }
+  ],
+  "append_only": true,
+  "semantic_bank": true,
+  "requires_evidence_refs": true,
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

@@ -1,0 +1,28 @@
+{
+  "source_profile_id": "github:777genius",
+  "source_type": "github",
+  "owner": "777genius",
+  "mode": "explicit_repos",
+  "repo_patterns": [],
+  "explicit_repositories": [
+    "https://github.com/777genius/plugin-kit-ai",
+    "https://github.com/777genius/lintai",
+    "https://github.com/777genius/agent-teams-ai",
+    "https://github.com/777genius/memo-stack",
+    "https://github.com/777genius/social-monitor",
+    "https://github.com/777genius/os-ai-computer-use",
+    "https://github.com/777genius/review-router",
+    "https://github.com/777genius/terminal-platform",
+    "https://github.com/777genius/claude-notifications-go",
+    "https://github.com/777genius/voice-to-text"
+  ],
+  "visibility": "public",
+  "inventory_tool": "none",
+  "git_protocol": "https",
+  "ssh_host_alias": null,
+  "ssh_key_ref": null,
+  "parallel": 3,
+  "refresh_limit": 100,
+  "allow_private": false,
+  "notes": "Public seed set requested by user."
+}

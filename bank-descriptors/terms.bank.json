@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "terms",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/terms.jsonl",
+  "event_schema_ref": "schemas/events/terms-event.schema.json",
+  "description": "Term/designation record. Terms designate; concepts define.",
+  "models": [
+    {
+      "model_id": "term",
+      "payload_schema_ref": "schemas/payload/term.schema.json",
+      "description": "Term/designation record. Terms designate; concepts define."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

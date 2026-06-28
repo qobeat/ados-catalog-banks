@@ -1,0 +1,207 @@
+{
+  "$comment": "ADOS reference archetypes for repository cataloging. Archetype means reusable kind of thing being delivered; not domain/tool stack/file extension.",
+  "version": "1.0.0",
+  "updated_at": "2026-06-28",
+  "concept_ref": "ADOS-ARCHETYPE",
+  "drift_guards": [
+    "Archetype must not mean Domain, file extension, or tool stack.",
+    "Choose primary archetype by accepted delivery, not by the most visible single file.",
+    "Secondary archetype requires distinct material contribution."
+  ],
+  "archetypes": [
+    {
+      "archetype_id": "software_app",
+      "label": "User-facing application",
+      "concept_ref": "ADOS-ARCHETYPE",
+      "when_to_use": "A runnable user-facing product is the accepted delivery and acceptance turns on its behavior/workflow.",
+      "signals": [
+        "app.py",
+        "index.html",
+        "package.json",
+        "deploy/run/test discussion"
+      ],
+      "field_contract": {
+        "quickstart": "Shortest path to run.",
+        "how_to_use": "Primary workflow.",
+        "how_to_update": "How to update."
+      }
+    },
+    {
+      "archetype_id": "runtime_package",
+      "label": "Runtime package / library",
+      "concept_ref": "ADOS-ARCHETYPE",
+      "when_to_use": "A reusable runtime, library, module, package, or SDK consumed by other software.",
+      "signals": [
+        "pyproject.toml",
+        "setup.py",
+        "Cargo.toml",
+        "go.mod",
+        "package exports"
+      ],
+      "field_contract": {
+        "quickstart": "Install/use example.",
+        "api_surface": "Key entry points.",
+        "how_to_update": "Release procedure."
+      }
+    },
+    {
+      "archetype_id": "ai_agent_prompt",
+      "label": "AI agent / prompt / skill",
+      "concept_ref": "ADOS-ARCHETYPE",
+      "when_to_use": "The delivery is a prompt, system message, agent definition, skill, plugin, hook, or LLM behavior contract.",
+      "signals": [
+        "AGENTS.md",
+        "SKILL.md",
+        "skills/",
+        "system prompt",
+        "model behavior"
+      ],
+      "field_contract": {
+        "role_or_persona": "Agent role.",
+        "instructions_summary": "Core behavior contract.",
+        "how_to_use": "Invocation/deployment."
+      }
+    },
+    {
+      "archetype_id": "automation_or_diagnostic_script",
+      "label": "Automation / diagnostic script",
+      "concept_ref": "ADOS-ARCHETYPE",
+      "when_to_use": "A script/tool automates a task or diagnoses a system.",
+      "signals": [
+        ".sh",
+        "diagnose",
+        "doctor",
+        "cron",
+        "CI"
+      ],
+      "field_contract": {
+        "quickstart": "How to run.",
+        "what_it_automates": "Task/check performed.",
+        "how_to_update": "Adaptation path."
+      }
+    },
+    {
+      "archetype_id": "data_extraction_processing",
+      "label": "Data extraction / processing pipeline",
+      "concept_ref": "ADOS-ARCHETYPE",
+      "when_to_use": "The delivery transforms/extracts/parses/analyzes data into structured output.",
+      "signals": [
+        "extract",
+        "parse",
+        "jsonl",
+        "schema",
+        "ETL"
+      ],
+      "field_contract": {
+        "inputs": "Input data.",
+        "outputs": "Structured result.",
+        "transform_summary": "Core transformation."
+      }
+    },
+    {
+      "archetype_id": "research_analysis",
+      "label": "Research / analysis project",
+      "concept_ref": "ADOS-ARCHETYPE",
+      "when_to_use": "A durable investigation producing findings, comparisons, or recommendations grounded in evidence.",
+      "signals": [
+        "research",
+        "analysis",
+        "comparison",
+        "report",
+        "findings"
+      ],
+      "field_contract": {
+        "research_question": "Question investigated.",
+        "findings_summary": "Conclusions.",
+        "methods": "Methods used."
+      }
+    },
+    {
+      "archetype_id": "controlled_spec_or_schema",
+      "label": "Controlled spec / schema / glossary",
+      "concept_ref": "ADOS-ARCHETYPE",
+      "when_to_use": "The delivery is a governed specification: JSON Schema, ontology, glossary, standard, or contract.",
+      "signals": [
+        "schema/",
+        "ontology/",
+        "MANIFEST.md",
+        "glossary",
+        "controlled vocabulary"
+      ],
+      "field_contract": {
+        "scope": "What the spec governs.",
+        "key_definitions": "Main fields/terms.",
+        "how_to_update": "Governance."
+      }
+    },
+    {
+      "archetype_id": "repository_catalog",
+      "label": "Repository catalog / software intelligence bank",
+      "concept_ref": "ADOS-ARCHETYPE",
+      "when_to_use": "The delivery collects repository metadata and semantic knowledge into queryable banks.",
+      "signals": [
+        "repositories.jsonl",
+        "banks/",
+        "catalog",
+        "repo inventory"
+      ],
+      "field_contract": {
+        "catalog_scope": "What repos are cataloged.",
+        "query_surface": "How users query it.",
+        "bank_model": "Data-bank model."
+      }
+    },
+    {
+      "archetype_id": "semantic_memory_platform",
+      "label": "Semantic memory / recall platform",
+      "concept_ref": "ADOS-ARCHETYPE",
+      "when_to_use": "The delivery stores/retrieves evidence-grounded semantic memory.",
+      "signals": [
+        "semantic index",
+        "embeddings",
+        "memory",
+        "retrieval",
+        "RAG"
+      ],
+      "field_contract": {
+        "memory_scope": "What is remembered.",
+        "retrieval_method": "How recall works.",
+        "grounding_policy": "How evidence is cited."
+      }
+    },
+    {
+      "archetype_id": "agent_orchestration_framework",
+      "label": "Agent orchestration framework",
+      "concept_ref": "ADOS-ARCHETYPE",
+      "when_to_use": "The delivery coordinates multiple agents, roles, workflows, or tool calls.",
+      "signals": [
+        "agent teams",
+        "orchestration",
+        "workflow",
+        "subagents"
+      ],
+      "field_contract": {
+        "agents": "Agent roles.",
+        "workflow": "Orchestration pattern.",
+        "handoff": "State handoff."
+      }
+    },
+    {
+      "archetype_id": "mcp_server",
+      "label": "MCP server / tool bridge",
+      "concept_ref": "ADOS-ARCHETYPE",
+      "when_to_use": "The delivery exposes tools/resources through Model Context Protocol or similar tool bridge.",
+      "signals": [
+        "mcp.json",
+        "Model Context Protocol",
+        "@modelcontextprotocol",
+        "server tools"
+      ],
+      "field_contract": {
+        "tools": "Exposed tools.",
+        "resources": "Exposed resources.",
+        "transport": "stdio/http/etc."
+      }
+    }
+  ]
+}

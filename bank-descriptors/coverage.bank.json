@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "coverage",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/coverage.jsonl",
+  "event_schema_ref": "schemas/events/coverage-event.schema.json",
+  "description": "Coverage proof record.",
+  "models": [
+    {
+      "model_id": "coverage",
+      "payload_schema_ref": "schemas/payload/coverage.schema.json",
+      "description": "Coverage proof record."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

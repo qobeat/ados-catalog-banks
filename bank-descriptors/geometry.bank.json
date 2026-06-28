@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "geometry",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/geometry.jsonl",
+  "event_schema_ref": "schemas/events/geometry-event.schema.json",
+  "description": "ADOS geometry derived record.",
+  "models": [
+    {
+      "model_id": "geometry",
+      "payload_schema_ref": "schemas/payload/geometry.schema.json",
+      "description": "ADOS geometry derived record."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

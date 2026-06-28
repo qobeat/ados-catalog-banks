@@ -1,0 +1,112 @@
+{
+  "$comment": "ADOS reference domains for repository cataloging. Domain means body of knowledge governing correctness/evidence.",
+  "version": "1.0.0",
+  "updated_at": "2026-06-28",
+  "concept_ref": "ADOS-DOMAIN-PAIR",
+  "materiality_test": "If changing the label changes no correctness, evidence, risk, vocabulary, or reference class, it is not a material domain.",
+  "drift_guards": [
+    "Domain is not Archetype, delivery format, tool, or repository.",
+    "Do not choose software_engineering as primary merely because software implements the product.",
+    "Secondary domain always appears as complete domain/subdomain pair."
+  ],
+  "domains": [
+    {
+      "domain_id": "software_engineering",
+      "label": "Software engineering",
+      "subdomains": [
+        "web",
+        "cli_tooling",
+        "data_pipelines",
+        "devops_ci",
+        "testing_quality",
+        "repository_analysis",
+        "package_management"
+      ],
+      "governs": "Code correctness, build/run/test, packaging, architecture."
+    },
+    {
+      "domain_id": "developer_tools",
+      "label": "Developer tools",
+      "subdomains": [
+        "code_review",
+        "linting",
+        "plugin_authoring",
+        "terminal_workspaces",
+        "repo_cataloging"
+      ],
+      "governs": "Developer workflow, tool integration, maintainability, ergonomics."
+    },
+    {
+      "domain_id": "ai_ml",
+      "label": "AI / machine learning",
+      "subdomains": [
+        "llm_systems",
+        "prompt_engineering",
+        "agent_orchestration",
+        "model_evaluation",
+        "local_inference",
+        "semantic_search"
+      ],
+      "governs": "Model behavior, evaluation validity, grounding, prompt/tool correctness."
+    },
+    {
+      "domain_id": "information_security",
+      "label": "Information security",
+      "subdomains": [
+        "application_security",
+        "secrets_management",
+        "supply_chain",
+        "policy_gates"
+      ],
+      "governs": "Threats, vulnerabilities, data protection, secure handling."
+    },
+    {
+      "domain_id": "data_engineering",
+      "label": "Data engineering",
+      "subdomains": [
+        "etl",
+        "jsonl_ledgers",
+        "schema_validation",
+        "semantic_indexing"
+      ],
+      "governs": "Data correctness, transformation, lineage, schema compliance."
+    },
+    {
+      "domain_id": "personal_knowledge_management",
+      "label": "Personal knowledge management",
+      "subdomains": [
+        "semantic_recall",
+        "evidence_memory",
+        "private_catalogs"
+      ],
+      "governs": "Recall accuracy, provenance, privacy, personal knowledge organization."
+    },
+    {
+      "domain_id": "business_operations",
+      "label": "Business / operations",
+      "subdomains": [
+        "product_management",
+        "market_research",
+        "operations"
+      ],
+      "governs": "Business correctness, process, stakeholder outcomes."
+    },
+    {
+      "domain_id": "education",
+      "label": "Education",
+      "subdomains": [
+        "sat_preparation",
+        "k12",
+        "higher_education",
+        "test_prep_general"
+      ],
+      "governs": "Curriculum correctness, pedagogy, learner progress."
+    },
+    {
+      "domain_id": "general_knowledge",
+      "label": "General knowledge",
+      "subdomains": [],
+      "governs": "Everyday factual correctness when no specialized domain governs."
+    }
+  ]
+}

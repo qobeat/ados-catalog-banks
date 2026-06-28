@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "provider_calls",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/provider_calls.jsonl",
+  "event_schema_ref": "schemas/events/provider_calls-event.schema.json",
+  "description": "AI provider execution record for ask/synthesis/index support; contains metadata and hashes, not secrets.",
+  "models": [
+    {
+      "model_id": "provider_call",
+      "payload_schema_ref": "schemas/payload/provider_call.schema.json",
+      "description": "AI provider execution record for ask/synthesis/index support; contains metadata and hashes, not secrets."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

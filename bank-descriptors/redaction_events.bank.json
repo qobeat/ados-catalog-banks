@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "redaction_events",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/redaction_events.jsonl",
+  "event_schema_ref": "schemas/events/redaction_events-event.schema.json",
+  "description": "Records privacy scrub operations before sending context to off-box or CLI providers.",
+  "models": [
+    {
+      "model_id": "redaction_event",
+      "payload_schema_ref": "schemas/payload/redaction_event.schema.json",
+      "description": "Records privacy scrub operations before sending context to off-box or CLI providers."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

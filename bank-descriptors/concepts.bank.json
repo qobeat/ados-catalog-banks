@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "concepts",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/concepts.jsonl",
+  "event_schema_ref": "schemas/events/concepts-event.schema.json",
+  "description": "Concept/definition record.",
+  "models": [
+    {
+      "model_id": "concept",
+      "payload_schema_ref": "schemas/payload/concept.schema.json",
+      "description": "Concept/definition record."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

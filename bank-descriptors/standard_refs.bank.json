@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "standard_refs",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/standard_refs.jsonl",
+  "event_schema_ref": "schemas/events/standard_refs-event.schema.json",
+  "description": "External standard/reference record.",
+  "models": [
+    {
+      "model_id": "standard_ref",
+      "payload_schema_ref": "schemas/payload/standard_ref.schema.json",
+      "description": "External standard/reference record."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

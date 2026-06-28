@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "repository_activity",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/repository_activity.jsonl",
+  "event_schema_ref": "schemas/events/repository_activity-event.schema.json",
+  "description": "Repository activity rollup.",
+  "models": [
+    {
+      "model_id": "repository_activity",
+      "payload_schema_ref": "schemas/payload/repository_activity.schema.json",
+      "description": "Repository activity rollup."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

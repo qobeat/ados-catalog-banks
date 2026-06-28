@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "bank_id": "model_providers",
+  "bank_version": "1.0.0",
+  "storage": "jsonl_ledger",
+  "ledger_path": "banks/model_providers.jsonl",
+  "event_schema_ref": "schemas/events/model_providers-event.schema.json",
+  "models": [
+    {
+      "model_id": "model_provider",
+      "payload_schema_ref": "schemas/payload/model_provider.schema.json"
+    }
+  ],
+  "append_only": true,
+  "semantic_bank": false,
+  "requires_evidence_refs": false,
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

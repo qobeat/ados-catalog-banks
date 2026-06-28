@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "semantic_embeddings",
+  "bank_version": "1.0.0",
+  "ledger_path": "banks/semantic_embeddings.jsonl",
+  "event_schema_ref": "schemas/events/semantic_embeddings-event.schema.json",
+  "description": "Embedding metadata/vector references for semantic chunks.",
+  "models": [
+    {
+      "model_id": "semantic_embedding",
+      "payload_schema_ref": "schemas/payload/semantic_embedding.schema.json",
+      "description": "Embedding metadata/vector references for semantic chunks."
+    }
+  ]
+}

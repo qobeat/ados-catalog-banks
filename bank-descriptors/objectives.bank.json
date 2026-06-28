@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "objectives",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/objectives.jsonl",
+  "event_schema_ref": "schemas/events/objectives-event.schema.json",
+  "description": "Objective linked to a goal.",
+  "models": [
+    {
+      "model_id": "objective",
+      "payload_schema_ref": "schemas/payload/objective.schema.json",
+      "description": "Objective linked to a goal."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

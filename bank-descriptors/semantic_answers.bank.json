@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "bank_id": "semantic_answers",
+  "bank_version": "1.0.0",
+  "storage": "jsonl_ledger",
+  "ledger_path": "banks/semantic_answers.jsonl",
+  "event_schema_ref": "schemas/events/semantic_answers-event.schema.json",
+  "models": [
+    {
+      "model_id": "semantic_answer",
+      "payload_schema_ref": "schemas/payload/semantic_answer.schema.json"
+    }
+  ],
+  "append_only": true,
+  "semantic_bank": true,
+  "requires_evidence_refs": true,
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "bank_id": "semantic_queries",
+  "bank_version": "1.0.0",
+  "storage": "jsonl_ledger",
+  "ledger_path": "banks/semantic_queries.jsonl",
+  "event_schema_ref": "schemas/events/semantic_queries-event.schema.json",
+  "models": [
+    {
+      "model_id": "semantic_query",
+      "payload_schema_ref": "schemas/payload/semantic_query.schema.json"
+    }
+  ],
+  "append_only": true,
+  "semantic_bank": true,
+  "requires_evidence_refs": false,
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

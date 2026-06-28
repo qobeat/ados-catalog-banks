@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "commits",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/commits.jsonl",
+  "event_schema_ref": "schemas/events/commits-event.schema.json",
+  "description": "Git commit record.",
+  "models": [
+    {
+      "model_id": "commit",
+      "payload_schema_ref": "schemas/payload/commit.schema.json",
+      "description": "Git commit record."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

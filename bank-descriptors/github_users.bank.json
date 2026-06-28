@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "bank_id": "github_users",
+  "bank_version": "1.0.0",
+  "ledger_path": "banks/github_users.jsonl",
+  "event_schema_ref": "schemas/events/github_users-event.schema.json",
+  "description": "github_users append-only bank.",
+  "models": [
+    {
+      "model_id": "github_user",
+      "payload_schema_ref": "schemas/payload/github_user.schema.json",
+      "description": "GitHub owner/user/org identity used to group repositories and answer owner/repository questions."
+    }
+  ]
+}

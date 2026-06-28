@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-06-28",
+  "concept_ref": "ADOS-DIFFICULTY",
+  "materiality_test": "Difficulty reflects cognitive load to a correct answer, not output length.",
+  "difficulty_tiers": [
+    {
+      "id": "T1",
+      "label": "Trivial",
+      "weight": 1,
+      "score_range": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "T2",
+      "label": "Moderate",
+      "weight": 2,
+      "score_range": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "T3",
+      "label": "Hard",
+      "weight": 3,
+      "score_range": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "T4",
+      "label": "Expert",
+      "weight": 4,
+      "score_range": [
+        9,
+        12
+      ]
+    }
+  ]
+}

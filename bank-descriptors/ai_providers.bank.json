@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "ai_providers",
+  "bank_version": "1.0.0",
+  "ledger_path": "banks/ai_providers.jsonl",
+  "event_schema_ref": "schemas/events/ai_providers-event.schema.json",
+  "description": "AI provider adapter summaries.",
+  "models": [
+    {
+      "model_id": "ai_provider",
+      "payload_schema_ref": "schemas/payload/ai_provider.schema.json",
+      "description": "AI provider adapter summaries."
+    }
+  ]
+}

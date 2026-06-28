@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "dependencies",
+  "bank_version": "0.1.0",
+  "ledger_path": "banks/dependencies.jsonl",
+  "event_schema_ref": "schemas/events/dependencies-event.schema.json",
+  "description": "Dependency from manifests.",
+  "models": [
+    {
+      "model_id": "dependency",
+      "payload_schema_ref": "schemas/payload/dependency.schema.json",
+      "description": "Dependency from manifests."
+    }
+  ],
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

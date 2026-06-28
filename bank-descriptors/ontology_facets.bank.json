@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "ontology_facets",
+  "bank_version": "1.0.0",
+  "ledger_path": "banks/ontology_facets.jsonl",
+  "event_schema_ref": "schemas/events/ontology_facets-event.schema.json",
+  "description": "Governed ADOS ontology facets.",
+  "models": [
+    {
+      "model_id": "ontology_facet",
+      "payload_schema_ref": "schemas/payload/ontology_facet.schema.json",
+      "description": "Governed ADOS ontology facets."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "bank_id": "model_benchmarks",
+  "bank_version": "1.0.0",
+  "storage": "jsonl_ledger",
+  "ledger_path": "banks/model_benchmarks.jsonl",
+  "event_schema_ref": "schemas/events/model_benchmarks-event.schema.json",
+  "models": [
+    {
+      "model_id": "model_benchmark",
+      "payload_schema_ref": "schemas/payload/model_benchmark.schema.json"
+    }
+  ],
+  "append_only": true,
+  "semantic_bank": true,
+  "requires_evidence_refs": false,
+  "created_for": "ados-catalog-dev-plan-1.0"
+}

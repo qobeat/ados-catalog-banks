@@ -1,0 +1,24 @@
+{
+  "source_profile_id": "github:qobeat",
+  "source_type": "github",
+  "owner": "qobeat",
+  "mode": "explicit_repos",
+  "repo_patterns": [
+    "ados-*",
+    "github-catalog"
+  ],
+  "explicit_repositories": [
+    "https://github.com/qobeat/github-catalog",
+    "https://github.com/qobeat/ados-catalog",
+    "https://github.com/qobeat/ados-catalog-banks"
+  ],
+  "visibility": "all",
+  "inventory_tool": "auto",
+  "git_protocol": "ssh",
+  "ssh_host_alias": "github-personal",
+  "ssh_key_ref": "~/.ssh/id_ed25519_personal",
+  "parallel": 4,
+  "refresh_limit": 1000,
+  "allow_private": true,
+  "notes": "Example only. Do not store secrets. Adjust host alias/key ref locally."
+}

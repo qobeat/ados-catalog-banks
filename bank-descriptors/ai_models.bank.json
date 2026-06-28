@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "ai_models",
+  "bank_version": "1.0.0",
+  "ledger_path": "banks/ai_models.jsonl",
+  "event_schema_ref": "schemas/events/ai_models-event.schema.json",
+  "description": "Curated AI model/runtime entries.",
+  "models": [
+    {
+      "model_id": "ai_model",
+      "payload_schema_ref": "schemas/payload/ai_model.schema.json",
+      "description": "Curated AI model/runtime entries."
+    }
+  ]
+}

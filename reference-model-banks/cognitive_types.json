@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-06-28",
+  "concept_ref": "ADOS-COGNITIVE-TYPE",
+  "materiality_test": "Cognitive type is the mental operation the task demands, orthogonal to archetype and domain.",
+  "cognitive_types": [
+    {
+      "id": "retrieve",
+      "label": "Retrieve / recall",
+      "tests": "Lookup a known answer.",
+      "default_verifiability": "objective"
+    },
+    {
+      "id": "explain",
+      "label": "Explain / clarify",
+      "tests": "Make an idea understandable.",
+      "default_verifiability": "rubric"
+    },
+    {
+      "id": "extract_transform",
+      "label": "Extract / transform",
+      "tests": "Pull structure from unstructured input.",
+      "default_verifiability": "objective"
+    },
+    {
+      "id": "classify_judge",
+      "label": "Classify / judge",
+      "tests": "Categorize or evaluate against criteria.",
+      "default_verifiability": "objective"
+    },
+    {
+      "id": "reason_analyze",
+      "label": "Reason / analyze",
+      "tests": "Multi-step reasoning/debugging/causal analysis.",
+      "default_verifiability": "objective"
+    },
+    {
+      "id": "generate_create",
+      "label": "Generate / create",
+      "tests": "Open-ended creation.",
+      "default_verifiability": "subjective"
+    },
+    {
+      "id": "plan_strategize",
+      "label": "Plan / strategize",
+      "tests": "Goal-directed sequence or strategy.",
+      "default_verifiability": "rubric"
+    },
+    {
+      "id": "converse_advise",
+      "label": "Converse / advise",
+      "tests": "Interactive diagnosis or advice.",
+      "default_verifiability": "rubric"
+    }
+  ]
+}

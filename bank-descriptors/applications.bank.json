@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "bank_id": "applications",
+  "bank_version": "1.0.0",
+  "ledger_path": "banks/applications.jsonl",
+  "event_schema_ref": "schemas/events/applications-event.schema.json",
+  "description": "Repository-derived applications/products for ask tables and module lookup.",
+  "models": [
+    {
+      "model_id": "application",
+      "payload_schema_ref": "schemas/payload/application.schema.json",
+      "description": "Repository-derived applications/products for ask tables and module lookup."
+    }
+  ]
+}

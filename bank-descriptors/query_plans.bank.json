@@ -1,0 +1,18 @@
+{
+  "schema_version": "0.1.0",
+  "bank_id": "query_plans",
+  "bank_version": "1.0.0",
+  "storage": "jsonl_ledger",
+  "ledger_path": "banks/query_plans.jsonl",
+  "event_schema_ref": "schemas/events/query_plans-event.schema.json",
+  "models": [
+    {
+      "model_id": "query_plan",
+      "payload_schema_ref": "schemas/payload/query_plan.schema.json"
+    }
+  ],
+  "append_only": true,
+  "semantic_bank": true,
+  "requires_evidence_refs": false,
+  "created_for": "ados-catalog-dev-plan-1.0"
+}
