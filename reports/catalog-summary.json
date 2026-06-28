@@ -1,0 +1,217 @@
+{
+  "bank_summary": {
+    "ai_models": {
+      "current_items": 0,
+      "events": 0
+    },
+    "ai_providers": {
+      "current_items": 0,
+      "events": 0
+    },
+    "applications": {
+      "current_items": 8,
+      "events": 8
+    },
+    "archetypes": {
+      "current_items": 11,
+      "events": 11
+    },
+    "classification_signals": {
+      "current_items": 107,
+      "events": 107
+    },
+    "commits": {
+      "current_items": 0,
+      "events": 0
+    },
+    "components": {
+      "current_items": 0,
+      "events": 0
+    },
+    "concepts": {
+      "current_items": 13,
+      "events": 13
+    },
+    "coordinates": {
+      "current_items": 0,
+      "events": 0
+    },
+    "coverage": {
+      "current_items": 15551,
+      "events": 15551
+    },
+    "dependencies": {
+      "current_items": 581,
+      "events": 884
+    },
+    "domains": {
+      "current_items": 9,
+      "events": 9
+    },
+    "embeddings": {
+      "current_items": 0,
+      "events": 0
+    },
+    "evidence": {
+      "current_items": 41,
+      "events": 41
+    },
+    "file_chunks": {
+      "current_items": 35063,
+      "events": 35063
+    },
+    "files": {
+      "current_items": 15538,
+      "events": 15538
+    },
+    "geometry": {
+      "current_items": 0,
+      "events": 0
+    },
+    "github_users": {
+      "current_items": 4,
+      "events": 14
+    },
+    "goal_deliveries": {
+      "current_items": 13,
+      "events": 13
+    },
+    "goals": {
+      "current_items": 13,
+      "events": 13
+    },
+    "interfaces": {
+      "current_items": 16,
+      "events": 16
+    },
+    "model_benchmarks": {
+      "current_items": 0,
+      "events": 0
+    },
+    "model_calls": {
+      "current_items": 0,
+      "events": 0
+    },
+    "model_providers": {
+      "current_items": 2,
+      "events": 2
+    },
+    "models": {
+      "current_items": 3,
+      "events": 3
+    },
+    "modules": {
+      "current_items": 94,
+      "events": 94
+    },
+    "objective_deliveries": {
+      "current_items": 0,
+      "events": 0
+    },
+    "objectives": {
+      "current_items": 87,
+      "events": 87
+    },
+    "ontology_facets": {
+      "current_items": 0,
+      "events": 0
+    },
+    "prompt_executions": {
+      "current_items": 0,
+      "events": 0
+    },
+    "prompt_flows": {
+      "current_items": 8,
+      "events": 8
+    },
+    "prompt_templates": {
+      "current_items": 1,
+      "events": 1
+    },
+    "provider_calls": {
+      "current_items": 0,
+      "events": 0
+    },
+    "published_exports": {
+      "current_items": 0,
+      "events": 0
+    },
+    "query_plans": {
+      "current_items": 7,
+      "events": 7
+    },
+    "redaction_events": {
+      "current_items": 0,
+      "events": 0
+    },
+    "repositories": {
+      "current_items": 14,
+      "events": 14
+    },
+    "repository_activity": {
+      "current_items": 0,
+      "events": 0
+    },
+    "repository_classifications": {
+      "current_items": 13,
+      "events": 13
+    },
+    "retrieval_hits": {
+      "current_items": 40,
+      "events": 40
+    },
+    "runs": {
+      "current_items": 5,
+      "events": 9
+    },
+    "scans": {
+      "current_items": 27,
+      "events": 27
+    },
+    "semantic_answers": {
+      "current_items": 7,
+      "events": 7
+    },
+    "semantic_chunks": {
+      "current_items": 153,
+      "events": 153
+    },
+    "semantic_documents": {
+      "current_items": 142,
+      "events": 142
+    },
+    "semantic_embeddings": {
+      "current_items": 0,
+      "events": 0
+    },
+    "semantic_indexes": {
+      "current_items": 1,
+      "events": 1
+    },
+    "semantic_queries": {
+      "current_items": 7,
+      "events": 14
+    },
+    "standard_refs": {
+      "current_items": 0,
+      "events": 0
+    },
+    "subdomains": {
+      "current_items": 36,
+      "events": 36
+    },
+    "terms": {
+      "current_items": 279,
+      "events": 342
+    },
+    "vectors": {
+      "current_items": 0,
+      "events": 0
+    }
+  },
+  "banks_root": "/home/alex/dev/ADOS/sw-catalog/ados-catalog-banks",
+  "generated_at": "2026-06-28T10:23:07Z",
+  "phase": "asked",
+  "report": "catalog-summary",
+  "semantic_index_status": "built"
+}

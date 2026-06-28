@@ -12,3 +12,5 @@
 {"ts": "2026-06-28T10:00:52Z", "command": "sweep", "repo": "https://github.com/777genius/review-router", "result": "processed", "run_id": "run:20260628T095958Z:ce190592"}
 {"ts": "2026-06-28T10:01:04Z", "command": "sweep", "repo": "https://github.com/octocat/Hello-World", "result": "processed", "run_id": "run:20260628T100102Z:278c2e45"}
 {"ts": "2026-06-28T10:01:06Z", "command": "sweep", "repo": "https://github.com/pallets/flask", "result": "processed", "run_id": "run:20260628T100102Z:278c2e45"}
+{"ts": "2026-06-28T10:05:44Z", "command": "index", "result": "ready", "run_id": "run:20260628T100141Z:c8fdc5f3"}
+{"ts": "2026-06-28T10:20:18Z", "command": "index", "result": "ready", "run_id": "run:20260628T102018Z:82fe5c42"}
