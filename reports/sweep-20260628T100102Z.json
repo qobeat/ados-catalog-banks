@@ -1,0 +1,73 @@
+{
+  "appended": {
+    "applications": 1,
+    "classification_signals": 4,
+    "concepts": 2,
+    "coverage": 239,
+    "dependencies": 181,
+    "evidence": 6,
+    "file_chunks": 518,
+    "files": 237,
+    "github_users": 2,
+    "goal_deliveries": 2,
+    "goals": 2,
+    "interfaces": 1,
+    "modules": 4,
+    "objectives": 1,
+    "repositories": 2,
+    "repository_classifications": 2,
+    "runs": 2,
+    "scans": 4,
+    "terms": 33
+  },
+  "by_status": {
+    "processed": 2
+  },
+  "completed": 2,
+  "generated_at": "2026-06-28T10:01:07Z",
+  "input": "fixtures/repository-sweep-list.json",
+  "limit": 2,
+  "report": "sweep",
+  "results": [
+    {
+      "counts": {
+        "archetype": "runtime_package",
+        "domain": "software_engineering/package_management",
+        "files": 1,
+        "terms": 3
+      },
+      "group": "diverse_public_smoke",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/octocat/Hello-World",
+      "status": "processed",
+      "url": "https://github.com/octocat/Hello-World"
+    },
+    {
+      "counts": {
+        "archetype": "semantic_memory_platform",
+        "domain": "ai_ml/semantic_search",
+        "files": 236,
+        "terms": 30
+      },
+      "group": "diverse_public_smoke",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/pallets/flask",
+      "status": "processed",
+      "url": "https://github.com/pallets/flask"
+    }
+  ],
+  "run_id": "run:20260628T100102Z:278c2e45",
+  "total": 2
+}
