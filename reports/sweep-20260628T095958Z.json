@@ -1,0 +1,255 @@
+{
+  "appended": {
+    "applications": 7,
+    "classification_signals": 103,
+    "concepts": 11,
+    "coverage": 15312,
+    "dependencies": 703,
+    "evidence": 35,
+    "file_chunks": 34545,
+    "files": 15301,
+    "github_users": 12,
+    "goal_deliveries": 11,
+    "goals": 11,
+    "interfaces": 15,
+    "modules": 90,
+    "objectives": 86,
+    "prompt_flows": 7,
+    "repositories": 12,
+    "repository_classifications": 11,
+    "runs": 2,
+    "scans": 23,
+    "terms": 309
+  },
+  "by_status": {
+    "processed": 11,
+    "unreachable": 1
+  },
+  "completed": 11,
+  "generated_at": "2026-06-28T10:00:53Z",
+  "input": "fixtures/repository-sweep-list.json",
+  "limit": 12,
+  "report": "sweep",
+  "results": [
+    {
+      "counts": {
+        "archetype": "repository_catalog",
+        "domain": "ai_ml/semantic_search",
+        "files": 335,
+        "terms": 30
+      },
+      "group": "target_repos",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/qobeat/ados-catalog",
+      "status": "processed",
+      "url": "https://github.com/qobeat/ados-catalog"
+    },
+    {
+      "counts": {
+        "archetype": "repository_catalog",
+        "domain": "ai_ml/semantic_search",
+        "files": 115,
+        "terms": 9
+      },
+      "group": "target_repos",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/qobeat/ados-catalog-banks",
+      "status": "processed",
+      "url": "https://github.com/qobeat/ados-catalog-banks"
+    },
+    {
+      "counts": {
+        "archetype": "controlled_spec_or_schema",
+        "domain": "ai_ml/semantic_search",
+        "files": 37,
+        "terms": 30
+      },
+      "group": "target_repos",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/qobeat/github-catalog",
+      "status": "processed",
+      "url": "https://github.com/qobeat/github-catalog"
+    },
+    {
+      "counts": {
+        "archetype": "controlled_spec_or_schema",
+        "domain": "ai_ml/semantic_search",
+        "files": 171,
+        "terms": 30
+      },
+      "group": "target_repos",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/qobeat/chatgpt-extract",
+      "status": "processed",
+      "url": "https://github.com/qobeat/chatgpt-extract"
+    },
+    {
+      "counts": {},
+      "error": "remote: Repository not found.\nfatal: repository 'https://github.com/qobeat/ados_302/' not found",
+      "group": "target_repos",
+      "passes": [],
+      "repo_id": "repo:github.com/qobeat/ados_302",
+      "status": "unreachable",
+      "url": "https://github.com/qobeat/ados_302"
+    },
+    {
+      "counts": {
+        "archetype": "ai_agent_prompt",
+        "domain": "ai_ml/agent_orchestration",
+        "files": 2816,
+        "terms": 30
+      },
+      "group": "777genius_ai_tooling",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/777genius/plugin-kit-ai",
+      "status": "processed",
+      "url": "https://github.com/777genius/plugin-kit-ai"
+    },
+    {
+      "counts": {
+        "archetype": "controlled_spec_or_schema",
+        "domain": "ai_ml/semantic_search",
+        "files": 2928,
+        "terms": 30
+      },
+      "group": "777genius_ai_tooling",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/777genius/lintai",
+      "status": "processed",
+      "url": "https://github.com/777genius/lintai"
+    },
+    {
+      "counts": {
+        "archetype": "ai_agent_prompt",
+        "domain": "ai_ml/agent_orchestration",
+        "files": 3514,
+        "terms": 30
+      },
+      "group": "777genius_ai_tooling",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/777genius/agent-teams-ai",
+      "status": "processed",
+      "url": "https://github.com/777genius/agent-teams-ai"
+    },
+    {
+      "counts": {
+        "archetype": "ai_agent_prompt",
+        "domain": "ai_ml/agent_orchestration",
+        "files": 1081,
+        "terms": 30
+      },
+      "group": "777genius_ai_tooling",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/777genius/memo-stack",
+      "status": "processed",
+      "url": "https://github.com/777genius/memo-stack"
+    },
+    {
+      "counts": {
+        "archetype": "semantic_memory_platform",
+        "domain": "ai_ml/semantic_search",
+        "files": 3459,
+        "terms": 30
+      },
+      "group": "777genius_ai_tooling",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/777genius/social-monitor",
+      "status": "processed",
+      "url": "https://github.com/777genius/social-monitor"
+    },
+    {
+      "counts": {
+        "archetype": "software_app",
+        "domain": "ai_ml/agent_orchestration",
+        "files": 427,
+        "terms": 30
+      },
+      "group": "777genius_ai_tooling",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/777genius/os-ai-computer-use",
+      "status": "processed",
+      "url": "https://github.com/777genius/os-ai-computer-use"
+    },
+    {
+      "counts": {
+        "archetype": "automation_or_diagnostic_script",
+        "domain": "ai_ml/semantic_search",
+        "files": 418,
+        "terms": 30
+      },
+      "group": "777genius_ai_tooling",
+      "passes": [
+        "pass_0",
+        "pass_0a",
+        "pass_1",
+        "pass_2",
+        "pass_3"
+      ],
+      "repo_id": "repo:github.com/777genius/review-router",
+      "status": "processed",
+      "url": "https://github.com/777genius/review-router"
+    }
+  ],
+  "run_id": "run:20260628T095958Z:ce190592",
+  "total": 12
+}
